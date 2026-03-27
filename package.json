@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@imgly/background-removal": "^1.5.8",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "@google/genai": "^1.38.0",
