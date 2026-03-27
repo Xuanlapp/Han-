@@ -265,7 +265,7 @@ export const regenerateRedesignedObject = async (
     parts.push({ text: prompt });
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3.1-flash',
+      model: 'gemini-3.1-flash-lite-preview',
       contents: { parts },
       config: {
         imageConfig: {
@@ -340,7 +340,7 @@ export const generateSimilarObject = async (
     `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3.1-flash',
+      model: 'gemini-3.1-flash-lite-preview',
       contents: {
         parts: [
             { text: prompt },
